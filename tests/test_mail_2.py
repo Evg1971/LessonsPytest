@@ -1,0 +1,12 @@
+import pytest
+
+
+@pytest.fixture
+def set_up():
+    print('Пользователь зарегистрировался')
+
+def test_sending_mail_1():
+    print('Письмо отправлено')
+
+def test_sending_mail_2():
+    print('Письмо отправлено')
